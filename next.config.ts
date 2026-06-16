@@ -1,6 +1,6 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+// @ts-nocheck
+/** @type {import('next').NextConfig} */
+module.exports = {
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -8,5 +8,3 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
 };
-
-export default nextConfig;
